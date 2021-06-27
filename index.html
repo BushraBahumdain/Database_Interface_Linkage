@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="stylechr.css">
+
+        <style>
+
+            #BackGcolor{
+                background-color: #F8F8FF;
+                height: 508px;
+                width: 797px;
+                position: absolute;
+                bottom: 170px;
+                right:682px;
+
+            } 
+
+
+            #div1{
+                background-color: #7B68EE;
+                height: 70px;
+                width: 800px;
+                position: absolute;
+                bottom: 100px;
+                border-radius: 5px;
+            }
+            #div2{
+                background-color: #7B68EE;
+                height: 70px;
+                width: 800px;
+                border-radius: 5px;
+            }
+            #div3{
+                background-color: #7B68EE;
+                height: 590px;
+                width: 1px;
+                position: absolute;
+                top: 50px;
+            }
+            #div4{
+                background-color: #7B68EE;
+                height: 550px;
+                width: 1px;
+                position: absolute;
+                right:680px;
+                top: 50px;
+            }
+            #text1 {
+                position: absolute;
+                bottom: 550px;
+                right: 900px;
+
+            }
+            #text2 {
+                position: absolute;
+                bottom: 480px;
+                right: 900px;
+            }
+            #text3 {
+                position: absolute;
+                bottom: 410px;
+                right: 900px;
+            }
+            #text4 {
+                position: absolute;
+                bottom: 340px;
+                right: 900px;
+            }
+            #text5 {
+                position: absolute;
+                bottom: 270px;
+                right: 900px;
+            }
+            #text6 {
+                position: absolute;
+                bottom: 200px;
+                right: 900px;
+            }
+
+            .button {
+                border: none;
+                color: #F8F8FF;
+                padding: 7px 18px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                position: absolute;
+                bottom: 300px;
+                right: 1340px;
+                background-color: #9491a1;
+                border-radius: 6px;
+
+            }
+            .button2 { position: absolute;
+                       bottom: 260px;
+                       padding: 7px 14px;} 
+
+
+            .slidecontainer {
+                width: 50%;
+
+            }
+
+
+            .slider {
+
+                width: 15%;
+                height: 15px;
+                border-radius: 5px;  
+                background: #d3d3d3;
+                outline: none;
+                opacity: 0.7;
+                -webkit-transition: .2s;
+                transition: opacity .2s;
+                position: absolute;
+                bottom: 571px;
+                right: 1000px;
+            }
+            .slider2 {
+                position: absolute;
+                bottom: 503px;
+                right: 1000px;
+
+            }
+
+            .slider3 {
+                position: absolute;
+                bottom: 433px;
+                right: 1000px;
+
+            }
+            .slider4 {
+                position: absolute;
+                bottom: 363px;
+                right: 1000px;
+
+            }
+            .slider5 {
+                position: absolute;
+                bottom: 295px;
+                right: 1000px;
+
+            }
+            .slider6 {
+                position: absolute;
+                bottom: 225px;
+                right: 1000px;
+
+            }
+
+            .slider::-webkit-slider-thumb {
+                appearance: none;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%; 
+                background: #04AA6D;
+                cursor: pointer;
+            }
+
+            .slider:hover {
+                opacity: 1;
+            }
+
+            .slider::-moz-range-thumb {
+                width: 23px;
+                height: 24px;
+                border: 0;
+                background: url('contrasticon.png');
+                cursor: pointer;
+            }
+
+            #demo{
+
+                position: absolute;
+                bottom: 571px;
+                right: 1240px;
+                opacity: 0.7; 
+            }
+
+            #demo2{
+
+                position: absolute;
+                bottom: 505px;
+                right: 1240px;
+                opacity: 0.7; 
+            }
+
+            #demo3{
+
+                position: absolute;
+                bottom: 435px;
+                right: 1240px;
+                opacity: 0.7; 
+            }
+            #demo4{
+
+                position: absolute;
+                bottom: 365px;
+                right: 1240px;
+                opacity: 0.7; 
+            }
+            #demo5{
+
+                position: absolute;
+                bottom: 295px;
+                right: 1240px;
+                opacity: 0.7; 
+            }
+            #demo6{
+
+                position: absolute;
+                bottom: 225px;
+                right: 1240px;
+                opacity: 0.7; 
+            }
+
+
+            .heading.add {
+                left: 260px;
+                right: 0px;
+                width: 350px;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: row;
+                -ms-flex-direction: row;
+                flex-direction: row;
+                color: #757575;
+                text-align: center;
+            }
+
+            h2 {
+                color: #696969;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <form  name="Add" data-name="InsertEngin" action="InsertEngin.jsp" method="POST" >
+
+
+            <div id="div1"></div>
+            <div id="div2"></div>
+            <div id="div3"></div>
+            <div id="div4"></div>
+            <div id="BackGcolor"></div>
+            <div id="text1"><h2><b>1 محرك</b></h2></div>
+            <div id="text2"><h2><b>2 محرك</b></h2></div>
+            <div id="text3"><h2><b>3 محرك</b></h2></div>
+            <div id="text4"><h2><b>4 محرك</b></h2></div>
+            <div id="text5"><h2><b>5 محرك</b></h2></div>
+            <div id="text6"><h2><b>6 محرك</b></h2></div>
+            
+            <div><button type="submit" class="button " data-wait="Please wait..." class="submit-button w-button" ><b>حفظ</b></button></div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange" name="d1">
+                <span id="demo"></span>
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="100" value="0" class="slider slider2" id="myRange2" name="d2">
+                <span id="demo2"></span>
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="100" value="0" class="slider slider3" id="myRange3" name="d3">
+                <span id="demo3"></span>
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="100" value="0" class="slider slider4" id="myRange4" name="d4">
+                <span id="demo4"></span>
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="100" value="0" class="slider slider5" id="myRange5" name="d5">
+                <span id="demo5"></span>
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="100" value="0" class="slider slider6" id="myRange6" name="d6">
+                <span id="demo6"> </span>
+            </div>
+        </form>
+        <form  name="Add" data-name="InsertEngin" action="ON_OFF.jsp" method="POST">
+            <div><button type="submit" class="button button2"  action="ON_OFF.jsp" method="POST" ><b>تشغيل</b></button></div>
+        </form>
+        <script>
+
+            var rangeslider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = rangeslider.value;
+
+            rangeslider.oninput = function () {
+                output.innerHTML = this.value;
+
+            }
+            
+            var rangeslider2 = document.getElementById("myRange2");
+            var output2 = document.getElementById("demo2");
+            output2.innerHTML = rangeslider2.value;
+
+            rangeslider2.oninput = function () {
+                output2.innerHTML = this.value;
+
+            }
+
+            var rangeslider3 = document.getElementById("myRange3");
+            var output3 = document.getElementById("demo3");
+            output3.innerHTML = rangeslider3.value;
+
+            rangeslider3.oninput = function () {
+                output3.innerHTML = this.value;
+
+            }
+
+            var rangeslider4 = document.getElementById("myRange4");
+            var output4 = document.getElementById("demo4");
+            output4.innerHTML = rangeslider4.value;
+
+            rangeslider4.oninput = function () {
+                output4.innerHTML = this.value;
+
+            }
+
+            var rangeslider5 = document.getElementById("myRange5");
+            var output5 = document.getElementById("demo5");
+            output5.innerHTML = rangeslider5.value;
+
+            rangeslider5.oninput = function () {
+                output5.innerHTML = this.value;
+
+            }
+
+            var rangeslider6 = document.getElementById("myRange6");
+            var output6 = document.getElementById("demo6");
+            output6.innerHTML = rangeslider6.value;
+            var s6 = rangeslider6.value;
+            rangeslider6.oninput = function () {
+                output6.innerHTML = this.value;
+
+            }
+        </script>
+    </body>
+</html> 
