@@ -10,4 +10,7 @@ Step4 sending the slider values through the JSP pages to the databse using queri
 # Arm Controller Interface 
 After choosing the desired values for the sliders, pressing the save or run button will navigate you to the response JSP page to notify you with the progress of your request
 
+![save](save.png)
+
+![response](response.png)
 
