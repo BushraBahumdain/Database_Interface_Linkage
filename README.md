@@ -12,5 +12,5 @@ After choosing the desired values for the sliders, pressing the save or run butt
 
 ![save](save.png)
 
-![response](response.png)
+![response(1)](response(1).png)
 
