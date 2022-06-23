@@ -11,7 +11,7 @@ Step3 creating JSP pages to add navigation function to the buttons
 Step4 sending the slider values through the JSP pages to the databse using queries 
 
 # Arm Controller Interface 
-After choosing the desired values for the sliders, pressing the save or run button will navigate you to the response JSP page to notify you with the progress of your request
+After choosing the desired values for the sliders, pressing the save or run button will navigate you to the responsive JSP page to notify you with the progress of your request
 
 ![save](save.png)
 
